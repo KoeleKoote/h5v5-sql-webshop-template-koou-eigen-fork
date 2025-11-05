@@ -20,6 +20,6 @@ CREATE TABLE products (
 
 -- Add products
 INSERT INTO products (id, name, image_link) VALUES
-    (1, 'Bavaria', 'smurfin.png'),
-    (2, 'Beneteau', 'muzieksmurf.png'),
-    (3, 'Dufour', 'grotesmurf.png');
+    (1, 'Bavaria', 'Bavaria-C38.jpg'),
+    (2, 'Beneteau', 'Beneteau-Oceanis37.1.jpg'),
+    (3, 'Dufour', 'dufour-37.jpg');
