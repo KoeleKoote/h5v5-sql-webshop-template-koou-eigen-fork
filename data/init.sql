@@ -11,7 +11,9 @@ DROP TABLE IF EXISTS products;
 CREATE TABLE products (
     id INTEGER PRIMARY KEY,
     name TEXT,
-    image_link TEXT
+    image_link TEXT,
+    beschrijving TEXT,
+    price REAL 
 );
 
 --
@@ -19,7 +21,10 @@ CREATE TABLE products (
 --
 
 -- Add products
-INSERT INTO products (id, name, image_link) VALUES
-    (1, 'Bavaria', 'Bavaria-C38.jpg'),
-    (2, 'Beneteau', 'Beneteau-Oceanis37.1.jpg'),
-    (3, 'Dufour', 'dufour-37.jpg');
+INSERT INTO products (id, name, image_link, beschrijving, price) VALUES
+    (1, 'Bavaria', 'Bavaria-C38.jpg', '11,31 m.', 162500),
+    (2, 'Beneteau', 'Beneteau-Oceanis37.1.jpg','11,93 m.',270000),
+    (3, 'Dufour', 'dufour-37.jpg','10,77 m.',212000),
+    (4, 'Hanse', 'hanse-348.jpg','10,40 m.', 175329),
+    (5, 'Sun Odyssey', 'Sun-Odyssey-350.jpg','10,40 m.', 188000);
+
